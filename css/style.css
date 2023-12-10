@@ -1,0 +1,32 @@
+nav {
+  position: relative;
+  background: rgb(255, 0, 149);
+  text-align: center;
+  padding: 15px 0;
+  transition: 1s;
+}
+nav:hover {
+  background: blue;
+}
+nav h1 {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  transition: 1s;
+  color: rgb(45, 230, 28);
+}
+nav h1:hover {
+  color: rgb(255, 71, 34);
+}
+nav h2 {
+  display: inline-block;
+  color: chartreuse;
+  background: red;
+  font-size: 52px;
+  text-align: center;
+  transition: 1s;
+}
+nav h2:hover {
+  color: #00d0ff;
+  background: #fff700;
+}/*# sourceMappingURL=style.css.map */
